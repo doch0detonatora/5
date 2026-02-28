@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 class Clock{
-protected:
+protected: // Comment
   int seconds;
 public:
   Clock(int h,int m,int s): seconds(s+m*60+h*3600){}
