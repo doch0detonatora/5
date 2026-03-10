@@ -23,11 +23,11 @@ public:
     }
     seconds--; //вычитание
   }
-  Timer(int h=0,int m=0,int s=0): Clock(h,m,s){}
+  Timer(int h=0,int m=0,int s=0): Clock(h,m,s){}//конструктор
 };
 int main() {
     int h, m, s, t;
-    cin >> h >> m >> s >> t;
+    cin >> h >> m >> s >> t;//переменные
     Timer c(h, m, s);
     Clock anticheat(h, m, s); //Проверка, что описаны оба класса
     for (int i = 0; i < t; i++) {
