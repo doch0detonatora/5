@@ -23,7 +23,7 @@ public:
     }
     seconds--;
   }
-  Timer(int h=0,int m=0,int s=0): Clock(h,m,s){}
+  Timer(int h=0,int m=0,int s=0): Clock(h,m,s){}//конструктор
 };
 int main() {
     int h, m, s, t;
