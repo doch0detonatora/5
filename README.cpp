@@ -21,7 +21,7 @@ public:
       cout<<"Done!\n";
       return;
     }
-    seconds--;
+    seconds--; //вычитание
   }
   Timer(int h=0,int m=0,int s=0): Clock(h,m,s){}
 };
