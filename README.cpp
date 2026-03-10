@@ -27,7 +27,7 @@ public:
 };
 int main() {
     int h, m, s, t;
-    cin >> h >> m >> s >> t;
+    cin >> h >> m >> s >> t;//переменные
     Timer c(h, m, s);
     Clock anticheat(h, m, s); //Проверка, что описаны оба класса
     for (int i = 0; i < t; i++) {
